@@ -246,7 +246,7 @@ Ext.define('Ext.ux.BufferedList', {
 			scrollDown = scrollPos >= this.lastScrollPos,
 			incrementalRender = false,
 			maxIndex = this.getRecordCount() - 1,
-			thisHeight = this.getHeight(),
+			thisHeight = this.bodyElement.getHeight(),
 			listHeight = this.listContainer.getHeight(),
 			topProxyHeight = this.topProxy.getHeight();
 
